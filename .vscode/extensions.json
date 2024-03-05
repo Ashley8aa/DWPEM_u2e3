@@ -1,0 +1,15 @@
+{
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846
+  "recommendations": [
+    "angular.ng-template",
+    "streetsidesoftware.code-spell-checker",
+    "ms-vscode.remote-repositories",
+    "donjayamanne.githistory",
+    "felipecaputo.git-project-manager",
+    "github.vscode-pull-request-github",
+    "github.remotehub",
+    "oderwat.indent-rainbow",
+    "esbenp.prettier-vscode",
+    "evgeniypeshkov.syntax-highlighter"
+  ]
+}

@@ -1,0 +1,42 @@
+/* Estilos para el contenedor del formulario */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Esto asegura que el padding no afecte el ancho total */
+  }
+  
+  /* Estilos para el botón */
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón al pasar el mouse */
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el mensaje de error */
+  .error-message {
+    color: #dc3545;
+    margin-bottom: 10px;
+  }
+  

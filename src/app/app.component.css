@@ -1,0 +1,62 @@
+/* AppComponent's private CSS styles */
+h1 {
+  margin: 0;
+}
+
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 0.2rem;
+  display: inline-block;
+  color: #3d3d3d;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+}
+nav a:hover {
+  color: white;
+  background-color: #42545c;
+}
+nav a:active {
+  background-color: black;
+}
+
+footer {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+footer hr {
+  width: 100%;
+  margin-bottom: 0;
+}
+footer button {
+  height: 2.5em;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 4px;
+  font-size: 1em;
+  line-height: 0;
+}
+footer button:hover {
+  color: white;
+  background-color: #42545c;
+}
+footer button:active {
+  background-color: black;
+}
+footer p {
+  margin-bottom: 0;
+}
+
+div#app {
+  padding: 2rem;
+  flex-grow: 1;
+  color: black;
+  background-color: white;
+}
+div#app.dark {
+  color: white;
+  background-color: rgb(32, 32, 32);
+}

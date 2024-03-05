@@ -1,0 +1,15 @@
+<div id="app" [ngClass]="theme">
+  <header>
+    <h1>{{ title }}</h1>
+    <nav>
+      <a routerLink="/dashboard">Panel</a>
+      <a routerLink="/heroes">Productos</a>
+    </nav>
+  </header>
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+  <footer>
+    <hr />
+    <button type="button" (click)="toggleTheme()">Cambiar tema</button>
+  </footer>
+</div>

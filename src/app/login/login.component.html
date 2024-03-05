@@ -1,0 +1,16 @@
+<div class="login-container">
+  <h2>Iniciar Sesión</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div>
+      <label for="username">Usuario:</label>
+      <input type="text" id="username" name="username" [(ngModel)]="username" required (blur)="onBlur()">
+    </div>
+    <div>
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" [(ngModel)]="password" required (blur)="onBlur()">
+    </div>
+    <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+    <button type="submit" (click)="onClick()">Iniciar Sesión</button>
+    <p>No estás registrado, <a routerLink="/register">regístrate ahora</a></p>
+  </form>
+</div>
